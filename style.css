@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Encode Sans Semi Condensed', sans-serif;
+    }
+
+/* Template de web    */
+@media (min-width: 600px){
+    body{
+        font-family: 'Encode Sans Semi Condensed', sans-serif;
+    }
+    h1{
+        font-weight: normal;
+        font-size: 48px;
+        color: #454545;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+    h2{
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 30px;
+        color: #F2EBE2;
+        width: 513px;
+        height: 30px;
+        background: #CBB7A1;
+    }
+    h3{
+        font-weight: normal;
+        font-size: 18px;
+        color: #454545;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+    #main-doc{
+        display: flex;
+        flex-direction: row;
+
+    }
+    #cabecalho{
+        width: 319px;
+        height: 1740px;;
+        background: #F2EBE2;
+        padding: 25px;
+    }
+    #nav-bar, li{
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 30px;
+        text-align: center;
+        color: #CEC1B2;
+        list-style: none;
+        margin-top: 70px;
+    }
+    a{
+        text-decoration: none;
+        color: inherit;
+    }
+    #imagemtopo{
+        width: 100%;
+    }
+    .main-section{
+        margin: 20px;
+    }
+    p{
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 17px;
+        text-align: justify;
+        color: #000000;
+        width: 640px;
+    }
+    article{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    #creditos{
+        width: 377px;
+        font-family: Encode Sans Semi Condensed;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        text-align: justify;
+        color: #CBB7A1;
+        margin-left: 20px;
+        margin-top: 60px;
+    }
+}
